@@ -31,7 +31,7 @@ const Images = ({ image, name, profession }) => (
       <p className=" text-[1.2rem] font-medium text-pink-500  tracking-wide ">{profession}</p>
     </section>
 
-    <section className="absolute top-0 right-0 flex-col px-2 bg-gradient-to-r from-pink-500 to-violet-900  rounded-tr-xl rounded-bl-2xl py-5 ">
+    <section className="absolute top-0 right-0 flex-col max-w-[12%] px-2 bg-gradient-to-r from-pink-500 to-violet-900  rounded-tr-xl rounded-bl-2xl py-5 ">
       <a href="#">
         <FaInstagram className=" w-[60%] m-auto text-white cursor-pointer my-2 " />
       </a>

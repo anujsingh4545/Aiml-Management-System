@@ -39,9 +39,9 @@ function Sidebar() {
   });
 
   return (
-    <div className=" w-[100%]  md:py-5 md:pr-5  ">
+    <div className=" w-[100%] h-[100vh]  md:py-5 md:pr-5  ">
       {/*  */}
-      <div className=" md:hidden fixed top-0 z-40 left-0 w-[100%] flex  items-center justify-between px-10 bg-gradient-to-r from-[#4450d4] to-violet-800 h-[10vh]  shadow-md ">
+      <div className=" md:hidden fixed top-0 z-40 left-0 w-[100%] flex  items-center justify-between px-10 bg-gradient-to-r from-[#4450d4] to-violet-800 h-[10%]  shadow-md ">
         <p className=" dosis  text-[3rem] font-extrabold text-white tracking-wide ">SideLine</p>
         <HiMenuAlt1
           className=" text-slate-100  h-[100%] w-[3rem] cursor-pointer  "
@@ -51,7 +51,7 @@ function Sidebar() {
         />
       </div>
 
-      <section className={on ? " w-[100%] h-[90vh] md:h-[100%] flex fixed md:relative left-0 bottom-0  z-20  " : " w-[0%] h-[90vh] md:h-[100%] flex fixed md:relative left-0 bottom-0  fast  "}>
+      <section className={on ? " w-[100%] h-[90%] md:h-[100%] flex fixed md:relative left-0 bottom-0  z-20  " : " w-[0%] h-[90vh] md:h-[100%] flex fixed md:relative left-0 bottom-0  fast  "}>
         {/*  */}
 
         <div className={on ? " slow w-[65%]  sm:w-[50%] md:w-[100%] h-[90vh] md:h-[100%]   box-border bottom-0   md:rounded-xl bg-gradient-to-r from-[#4450d4] to-violet-800 m md:from-[#4d5bf9a3] md:to-[#4d5bf9a3]  md:py-2  " : " bg-gradient-to-r from-[#4450d4] to-violet-800 md:bg-[#4d5bf9a3] box-border bottom-0  h-[100vh] w-[0%] overflow-x-hidden fast "}>
