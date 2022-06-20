@@ -18,7 +18,7 @@ function index({ sessio }) {
     router.push("/auth/signin");
   } else {
     return (
-      <div className="  relative w-[100%] mt-[10vh] md:mt-0  h-fit  md:overflow-y-scroll md:scrollbar-hide   md:h-[100%] md:rounded-xl  right_tab  box-border shadow-lg shadow-[#ffffff14]  text-[3rem] border-[0.1rem] border-slate-700 text-white">
+      <div className="  relative w-[100%] pt-[10%] md:mt-0  h-[100%] md:overflow-y-scroll md:scrollbar-hide   md:h-[100%] md:rounded-xl  right_tab  box-border shadow-lg shadow-[#ffffff14]  text-[3rem] border-[0.1rem] border-slate-700 text-white">
         {/*  */}
 
         <section className="  top-0 hidden md:flex md:fixed items-center justify-between bg-gradient-to-r from-[#4450d4] to-violet-800 w-[100%] z-30  h-20 md:rounded-t-xl  px-7 shadow-md shadow-[#ffffff1b] ">

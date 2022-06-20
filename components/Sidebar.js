@@ -39,7 +39,7 @@ function Sidebar() {
   });
 
   return (
-    <div className=" w-[100%] h-[100vh]  md:py-5 md:pr-5  ">
+    <div className=" w-[100%] h-[100%]  md:py-5 md:pr-5  ">
       {/*  */}
       <div className=" md:hidden fixed top-0 z-40 left-0 w-[100%] flex  items-center justify-between px-10 bg-gradient-to-r from-[#4450d4] to-violet-800 h-[10%]  shadow-md ">
         <p className=" dosis  text-[3rem] font-extrabold text-white tracking-wide ">SideLine</p>
